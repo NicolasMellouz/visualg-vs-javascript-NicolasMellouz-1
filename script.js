@@ -9,11 +9,11 @@ function login() {
     let login = campoLogin.value;
     let senha = campoSenha.value;
     let mensagem = "erro um dos dois aí";
-    let bancoDeDados = JSON.parse(localStorage.getItem("bandoDeDados"));
-    if (bancoDeDados = null) {
+    let bancoDeDados = JSON.parse(localStorage.getItem("bancoDeDados"));
+    if (bancoDeDados == null) {
         mensagem = "nenhum cadastro paizao"
     } else{
-    for (let usuario of usuarios) {
+    for (let usuario of bancoDeDados) {
         if (usuario.login == login && usuario.senha == senha) {
             mensagem = "ta logado patrao";
             localStorage.setItem("home", JSON.stringify(usuario));
