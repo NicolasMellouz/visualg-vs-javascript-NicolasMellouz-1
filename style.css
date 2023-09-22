@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "ovo1";
+    src: local(CroissantOne-Regular) ,url(fontes/CroissantOne-Regular.ttf);
+}
+
+
+
+body{
+    text-align: center;
+    background-image: url(fotos/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+div{
+    width: 680px;
+    
+    border-width: 1px;
+    text-align: center;   
+    margin: 60px auto;
+    color: aliceblue;
+}
+input{
+    width: 180px;
+    text-align: center;
+    border-radius: 50px;
+    color: black;
+    font-family: "ovo1";
+}
+.index{
+    width: 75px;
+    background-color: #18181C;
+    color: white;
+    border: 2px solid white; 
+}
+h1{
+    color: aliceblue;
+    font-family: "ovo1";
+}
+.ovo{
+    width: 100px;
+    background-color: #18181C;
+    color: white;
+    border: 2px solid white; 
+    font-family: "ovo1";
+}
+
+.content{
+    display: flex;
+    width: 300px;
+}
