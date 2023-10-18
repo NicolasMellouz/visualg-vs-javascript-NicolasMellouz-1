@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    background-image: url(fotos/fundo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.texto{
+    width:200px;
+    height:200px;
+    border:2px solid black;
+    padding:10px;
+    box-sizing: border-box;
+}
