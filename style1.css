@@ -1,10 +1,11 @@
 @font-face {
     font-family: "ovo1";
-    src: local(RobotoMono-Bold) ,url(RobotoMono-Bold.ttf);
+    src: local(Anton-Regular) ,url(Anton-Regular.ttf);
 }
+
 body{
     text-align: center;
-    background-image: url(fundo.jpg);
+    background-image: url(Shaco_0.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -15,10 +16,6 @@ body{
     border:2px solid black;
     padding:10px;
     box-sizing: border-box;
-}
-h1{
-    color: white;
-    font-family: "ovo1";
 }
 h3{
     color: white;
@@ -46,3 +43,5 @@ h3{
     color: black;
     cursor: pointer;
   }
+
+ 
